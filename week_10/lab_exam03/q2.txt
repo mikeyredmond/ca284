@@ -1,0 +1,31 @@
+My first thought after reading this question is that after the user is
+prompted for an integer and it is read by my program if zero is entered then zero must be
+printed and it will return false, then exit the program. Second of all, if its not zero I'm going to need a check function
+in order to see if the number is in the range -999 to 999 inclusive so I'll convert this string into an integer, if not an error must appear, return false and exit the program.
+If it is an accepted input I need to know if it is negative or not, this
+function will scan the first character of the number as it is coming in as a string. If there is a minus sign then I know it is negative
+and can start my new string variable with the word "Minus". I can count the length of the number as it comes in as
+a string and if it started off with a minus I can find it's actual length by subtracting one from it's original length. If the length
+was 3, then I'd have print the singular from of the first number which would be stored in a dictionary eg: the digit 4 is typed as "Four". I'd have to add "hundred" after as that
+is generic for 3 digit numbers, however for the second digit I'd need to print the number in it's tens place eg: 3 would be "thirty". Finally for the last singular digit
+I'd need to print a number in its singular form like if it was in it's hundredth place. If there was a zero in the tens place and singular place I'd leave the number as "whatever
+hundred" eg: "four hundred". If there was a number in the singular place and not in the tens place it would be eg: "four hundred and three". If there were non zero numbers in both
+the tens and singular places it would print eg: "four hundred and ninety five".
+Sorry for the essay I couldn't help it.
+
+
+
+
+if (fstring != NULL)
+    {
+        free(fstring);
+    }
+
+    if (nstring != NULL)
+    {
+        free(nstring);
+    }
+
+    return (0);
+
+    Please enter a string: This string is a palindrome.

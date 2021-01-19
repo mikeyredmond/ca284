@@ -1,0 +1,5 @@
+Pointers and a block of memory allocated at run-time may be used
+by a lecturer as his/her class may increase and their program might have run out of memory and therefore couldn't run.
+He/she may need more space to be able to compile/run their assignments etc and does not
+want to have to manually change their own correction program in order to resolve this. That is why you
+use malloc/calloc or if the program needs more memory when running it can use realloc.

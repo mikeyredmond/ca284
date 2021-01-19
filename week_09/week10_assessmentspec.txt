@@ -1,0 +1,4 @@
+Bitwise Operators, bit shifting
+Memory allocation, stack and heap
+-> malloc, calloc, realloc (all from heap, must free up memory at end of program)
+Pointers
